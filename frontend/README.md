@@ -1,3 +1,3 @@
 # Advanced-React
 
-frontend
+frontend from Wes Bos's Advanced React course
