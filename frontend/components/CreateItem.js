@@ -59,7 +59,7 @@ class CreateItem extends Component {
     console.log(file);
     this.setState({
       image: file.secure_url,
-      largeImage: file.eager[0].secureUrl,
+      largeImage: file.eager[0].secure_url,
     });
   };
 
