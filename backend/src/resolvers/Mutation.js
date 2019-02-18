@@ -73,7 +73,7 @@ const Mutations = {
       throw new Error(`No such user found for email ${email}`);
     }
     // 2. check if their password is correct
-    const valid = await bcyrpt.compare(password, user.password);
+    const valid = await bcrypt.compare(password, user.password);
     if (!valid) {
       throw new Error(`Invalid password`);
     }
